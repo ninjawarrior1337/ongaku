@@ -1,0 +1,15 @@
+.DS_Store
+node_modules
+/build
+/.svelte-kit
+/package
+.env
+.env.*
+!.env.example
+
+src/assets/*
+!src/assets/.gitkeep
+
+scraper/pages
+scraper/anime.json
+scraper/anime.msgpack

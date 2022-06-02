@@ -13,3 +13,4 @@ src/assets/*
 scraper/pages
 scraper/anime.json
 scraper/anime.msgpack
+.vercel

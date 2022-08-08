@@ -4,7 +4,7 @@ import {writable} from "svelte/store"
 export class LoveLiveUtils {
     private TODAY = new Date(Date.now())
     private idols = [] as Idol[]
-    private IdolDataUrl = "https://bafybeidwsb5vnlocxvuwnkf5oxyyooam72cwbpgfcjljvayyuu23uthv5i.ipfs.dweb.link/lovelive.json"
+    private IdolDataUrl = "https://gist.githubusercontent.com/ninjawarrior1337/2a51ec53e679550a1d254a465ee79c11/raw"
     public async setup() {
         if (this.idols.length > 0) {
             return

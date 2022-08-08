@@ -1,5 +1,5 @@
 import { derived, writable, get } from "svelte/store";
-import arrayMove, { arrayMoveImmutable, arrayMoveMutable } from "array-move"
+import { arrayMoveImmutable } from "array-move"
 import { showControls } from "./controls";
 import { filterFunc } from "./filterControl";
 import { browser } from "$app/env";
